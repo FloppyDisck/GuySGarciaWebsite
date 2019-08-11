@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    font-family: monospace;
+    max-width: 1200px;
+    margin: auto;
+    background: #1B1B1B; 
+
+    color: #EEE;
+    border: #EEE;
+    background-color: #1B1B1B;
+    //E0FFFF
+    //ff052e
+  }
+p {
+  font-size: 18px;
+}
+span {
+  font-size: 18px;
+}
+  /* Style the logo */
+    .ascii-logo {
+    color: inherit;
+    display: block;
+    line-height: 8px;
+    font-size: 6px;
+    font-weight: bold;
+    white-space: pre;
+    margin: 50px auto;
+    width: 710px;
+    text-decoration: none;
+    border-bottom: 0;
+  }
+    /* Style the logo */
+    .ascii-image {
+      color: inherit;
+      line-height: 4px;
+      font-size: 6px;
+      font-weight: bold;
+      white-space: pre;
+      margin: 10px auto;
+      text-decoration: none;
+      border-bottom: 0;
+    }
+    .ascii-image abb{
+      color: #CB0100;
+    }
+    .ascii-image ipYellow{
+      color: #EFFF00;
+    }
+    .ascii-image ipBlue{
+      color: #0024FF;
+    }
+
+  /* Style the user line */
+  .cmd {
+    color: lightgreen;
+  }
+
+  .cmd w {
+    color: #EEE;
+  }
+
+  .cmd b {
+    color: lightskyblue;
+  }
+
+  .cmd1 {
+    white-space: pre;
+    color: #EEE;
+  }
+
+  .cmd1 r {
+    color: #DD4814;
+  }
+
+/* Style the tab */
+.tab {
+    text-align: center;
+    border: inherit;
+    border-bottom: 1px dashed;
+    background-color: inherit;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    font-size: 18px;
+
+    display: inline-block;
+    padding: 10px 25px;
+    margin-bottom: -1px;
+
+    border: inherit;
+    border: 1px dashed;
+    border-bottom: 0px;
+    color: inherit;
+    background-color: inherit;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: inherit;
+  }
+
+  .tab button:focus {
+    outline: 0 !important;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: inherit;
+    border-bottom: 1px solid #1B1B1B;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: inherit;
+    border: 1px dashed;
+    border-top: none;
+  }
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  text-align: center;
+  width: 40%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 60%;
+}
+.column.title {
+  width: 70%
+}
+.column.date {
+  width: 30%
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
