@@ -7,13 +7,11 @@ body {
     font-family: monospace;
     max-width: 1200px;
     margin: auto;
-    background: #1B1B1B; 
+    background: #1e1e1e; 
 
     color: #EEE;
     border: #EEE;
-    background-color: #1B1B1B;
-    //E0FFFF
-    //ff052e
+    background-color: #1e1e1e;
   }
 p {
   font-size: 18px;
@@ -36,7 +34,7 @@ span {
   }
     /* Style the logo */
     .ascii-image {
-      color: inherit;
+      color: #585858;
       line-height: 4px;
       font-size: 6px;
       font-weight: bold;
@@ -70,12 +68,18 @@ span {
 
   .cmd1 {
     white-space: pre;
-    color: #EEE;
+    color: #B8B8B8;
   }
 
-  .cmd1 r {
-    color: #DD4814;
+  .cmd1 b {
+    color: #7CAFC2;
   }
+
+  .cmd1 g {
+    color: #383838
+  }
+
+
 
 /* Style the tab */
 .tab {
