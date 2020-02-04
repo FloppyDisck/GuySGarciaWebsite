@@ -1,165 +1,161 @@
-* {
-  box-sizing: border-box;
+
+/* Setup */
+html {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 137.5%;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
-    font-size: 1rem;
-    font-family: monospace;
-    max-width: 1200px;
-    margin: auto;
-    background: #1e1e1e; 
+  background-color: #1e1e1e;
+  color: #EEE;
+}
 
-    color: #EEE;
-    border: #EEE;
-    background-color: #1e1e1e;
-  }
+/* Copy & Lists */
 p {
-  font-size: 18px;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
 }
-span {
-  font-size: 18px;
+ul,
+ol {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
-  /* Style the logo */
-    .ascii-logo {
-    color: inherit;
-    display: block;
-    line-height: 8px;
-    font-size: 6px;
-    font-weight: bold;
-    white-space: pre;
-    margin: 50px auto;
-    width: 710px;
-    text-decoration: none;
-    border-bottom: 0;
-  }
-    /* Style the logo */
-    .ascii-image {
-      color: #585858;
-      line-height: 4px;
-      font-size: 6px;
-      font-weight: bold;
-      white-space: pre;
-      margin: 10px auto;
-      text-decoration: none;
-      border-bottom: 0;
-    }
-    .ascii-image abb{
-      color: #CB0100;
-    }
-    .ascii-image ipYellow{
-      color: #EFFF00;
-    }
-    .ascii-image ipBlue{
-      color: #0024FF;
-    }
-
-  /* Style the user line */
-  .cmd {
-    color: lightgreen;
-  }
-
-  .cmd w {
-    color: #EEE;
-  }
-
-  .cmd b {
-    color: lightskyblue;
-  }
-
-  .cmd1 {
-    white-space: pre;
-    color: #B8B8B8;
-  }
-
-  .cmd1 b {
-    color: #7CAFC2;
-  }
-
-  .cmd1 g {
-    color: #383838
-  }
-
-
-
-/* Style the tab */
-.tab {
-    text-align: center;
-    border: inherit;
-    border-bottom: 1px dashed;
-    background-color: inherit;
-  }
+ul li,
+ol li {
+  line-height: 1.5rem;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+blockquote {
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  position:relative;
+}
+blockquote::after {
+  content: '';
+  background-color: #222;
+  bottom: -24px;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 4%;
+  display: none;
+}
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  line-height: 1.5rem;
+}
+h1 {
+  font-size: 4.242rem;
+  line-height: 4.5rem;
+  margin-top: 3rem;
+}
+h2 {
+  font-size: 2.828rem;
+  line-height: 3rem;
+  margin-top: 3rem;
+}
+h3 {
+  font-size: 1.414rem;
+}
+h4 {
+  font-size: 0.707rem;
+}
+h5 {
+  font-size: 0.4713333333333333rem;
+}
+h6 {
+  font-size: 0.3535rem;
+}
+/* Tables */
+table {
+  margin-top: 1.5rem;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table td,
+table th {
+  padding: 0;
+  line-height: 33px;
+}
+/* Code blocks */
+code {
+  vertical-align: bottom;
+}
+/* Leading paragraph text */
+.lead {
+  font-size: 1.6rem;
+  line-height: 1.3;
   
-  /* Style the buttons inside the tab */
-  .tab button {
-    font-size: 18px;
+}
+.blue {
 
-    display: inline-block;
-    padding: 10px 25px;
-    margin-bottom: -1px;
+}
+.blue b {
+  color: #7CAFC2;
+}
+/* Hug the block above you */
+.hug {
+  margin-top: 0;
+}
+main {
+  width: 590px;
+  margin: 0 auto;
+}
 
-    border: inherit;
-    border: 1px dashed;
-    border-bottom: 0px;
-    color: inherit;
-    background-color: inherit;
+blockquote {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+blockquote p:before {
+  content: '“';
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+blockquote p:after {
+  content: '”';
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+blockquote footer {
+  color: #888;
+}
+
+a {
+  color: #B8B8B8;
+}
+a:hover,
+a:focus {
+  color: #00baff;
+}
+
+@media only screen and (max-width: 812px) {
+  body {
+    margin: 16px;
   }
-  
-  /* Change background color of buttons on hover */
-  .tab button:hover {
-    background-color: inherit;
-  }
 
-  .tab button:focus {
-    outline: 0 !important;
-  }
-  
-  /* Create an active/current tablink class */
-  .tab button.active {
-    background-color: inherit;
-    border-bottom: 1px solid #1B1B1B;
-  }
-  
-  /* Style the tab content */
-  .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: inherit;
-    border: 1px dashed;
-    border-top: none;
-  }
-/* Create three unequal columns that floats next to each other */
-.column {
-  float: left;
-  padding: 10px;
-}
-
-/* Left and right column */
-.column.side {
-  text-align: center;
-  width: 40%;
-}
-
-/* Middle column */
-.column.middle {
-  width: 60%;
-}
-.column.title {
-  width: 70%
-}
-.column.date {
-  width: 30%
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 1000px) {
-  .column.side, .column.middle {
+  main {
     width: 100%;
   }
 }

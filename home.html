@@ -1,374 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>The only help you'll ever need.</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
+    <!-- YOU ARE AWESOME! <3 -->
+    <!-- BE YOUR BEST! -->
 </head>
-    <body>
-        <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script> 
-        <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
-        <div style="width:100%">
-        <p class="ascii-logo">
-        *************                                                 ***************              *************                                                           **** 
-     ****************                                               ******************          ****************                                                          ******
-   ******************                                              *******************        ******************                                                           **** 
-  *******************                                              *******     *******       *******************                                                                
- *******       ************    *************           *******     *******                  *******       ******  *************  *****   *********       ***********************   *************
-*******              ******    ****** *******         *******      *******                 *******                ************** ******************    *************************   **************
-*******              ******    ******  *******       *******        *********              *******                **********************************  ******************* ******   ***************
-*******    ****************    ******   *******     *******          *************         *******    **********           ********************************************** ******            ******
-*******    ****************    ******    *******   *******             *************       *******    **********    ************* *******     ***************     ******* ******     *************
-*******    ****************    ******     ******* *******                 ***********      *******    **********  *************** *******     **************              ******   ***************
-*******        ************    ******      *************                       *******     *******        ****** **************** *******            *******              ******  ****************
- *******       **********************       ***********                        *******      *******       ************    ******* *******            ********     ******* ****** ******    *******
-  *************************************      *********             *******     *******       *************************    ******* *******            **********************************    *******
-   ****************** *****************       *******              *******************        *********************************** *******             ********************************************
-     ****************  ****************      *******               ******************           **************** ************************              ************************** *****************
-        ******   ****    ********  ****     *******                 ***************                ******   ****  **********  ***********                ************************  **********  ****
-                                           *******
-                                          *******
-                                         *******
-                                        *******
-                                       *******</p></div>
-            <div class="tab">
-              <button class="tablinks" onclick="openTab(event, 'about')" id="defaultOpen">About</button>
-              <button class="tablinks" onclick="openTab(event, 'bash Documents/projects.sh')">Projects</button>
-              <button class="tablinks" onclick="openTab(event, 'pinky -l guysgarcia')">Contact Me</button>
-            </div>
-            <div id="about" class="tabcontent">
-              <span class="cmd">recruiter@guysgarcia.xyz<w>:</w><b>~</b><w>$ </w></span><span class="cmd1" id="command1"></span>
-              <p class="cmd1">My name is Guy S. Garcia. Computer Engineering Undergrad from <b>San Juan</b>, <b>Puerto Rico</b>.</p>
-              <p class="cmd1">-------------------------------------------------------------------------------------</p>
-              <p class="cmd1"><b>Supported Languages</b>:  -English  -Spanish</p>
-              <p class="cmd1"><b>Programming Languages</b>: </p>
-              <p class="cmd1">01. <b>Python</b>        -Skilled</p>
-              <p class="cmd1">02. <b>HTML/CSS/JS</b>   -Work Experienced</p>
-              <p class="cmd1">03. <b>C#/ASP.Net</b>    -Work Experienced</p>
-              <p class="cmd1">04. <b>Java</b>          -Experienced</p>
-              <p class="cmd1">05. <b>C</b>             -Light Usage</p>
-              <p class="cmd1">06. <b>C++</b>           -Light Usage</p> 
-              <p class="cmd1"><b>Other Skills</b>: </p>
-              <p class="cmd1">    -Raspberry Pi  -Group Leadership   -3D Printing</p>
-              <p class="cmd1">    -Arduino       -Server Management  -CAD Design</p>
-              <p class="cmd1"><b>Education</b>:   UPRM <g>(Universidad de Puerto Rico en Mayaguez)</g></p>
-              <p class="cmd1"><b>Graduation</b>:  May 2022</p>
-            </div>
-                  
-                  <div id="bash Documents/projects.sh" class="tabcontent">
-                    <span class="cmd">recruiter@guysgarcia.xyz<w>:</w><b>~</b><w>$ </w></span><span class="cmd1" id="command2"></span>                    
-                    <div class="row">
-                      <div class="column side">
-                        <p class="ascii-image">
-                               ''''' ''''               '''''''''' ''''            '''''''''' ''''            
-                               ''''' '''''              '''''''''' ''''''          '''''''''' ''''''          
-                               ''''' '''''              '''''''''' '''''''         '''''''''' '''''''         
-                              '''''' '''''              '''''''''' ''''''''        '''''''''' ''''''''        
-                              '''''' ''''''             '''''''''' '''''''''       '''''''''' '''''''''       
-                              '''''' ''''''             '''''''''' '''''''''       '''''''''' '''''''''       
-                             ''''''' ''''''             '''''''''' '''''''''       '''''''''' '''''''''       
-                             ''''''' '''''''            '''''''''' '''''''''       '''''''''' '''''''''       
-                            '''''''' '''''''            '''''''''' '''''''''       '''''''''' '''''''''       
-                            '''''''' '''''''`           '''''''''' '''''''''       '''''''''' '''''''''       
-                            '''''''' ''''''''           '''''''''' '''''''''       '''''''''' '''''''''       
-                           ''''''''' ''''''''           '''''''''' ''''''''        '''''''''' ''''''''        
-                           ''''''''' '''''''''          '''''''''' '''''''         '''''''''' '''''''         
-                           ''''''''' '''''''''          '''''''''' '''''''         '''''''''' '''''''         
-                          '''''''''' '''''''''          '''''''''' ''''''''        '''''''''' '''''''''       
-                          '''''''''' ''''''''''         '''''''''' '''''''''`      '''''''''' ''''''''''      
-                          '''''''''' ''''''''''         '''''''''' ''''''''''      '''''''''' ''''''''''      
-                         .,,,,,,,,,, ,,,,,,,,,,         ,,,,,,,,,, ,,,,,,,,,,,     ,,,,,,,,,, ,,,,,,,,,,,     
-                         ''''''''''' '''''''''''        '''''''''' '''''''''''     '''''''''' '''''''''''     
-                         ''''''''''' '''''''''''        '''''''''' ''''''''''''    '''''''''' ''''''''''''    
-                        '''''''''''' '''''''''''        '''''''''' ''''''''''''    '''''''''' ''''''''''''    
-                        '''''''''''' ''''''''''''       '''''''''' ''''''''''''    '''''''''' ''''''''''''    
-                        '''''''''''' ''''''''''''       '''''''''' ''''''''''''    '''''''''' ''''''''''''    
-                       ''''''''''''' ''''''''''''       '''''''''' ''''''''''''    '''''''''' ''''''''''''    
-                       ''''''''''''' '''''''''''''      '''''''''' ''''''''''''    '''''''''' ''''''''''''    
-                      '''''''''''''' '''''''''''''      '''''''''' ''''''''''''    '''''''''' ''''''''''''    
-                      '''''''''''''' '''''''''''''`     '''''''''' ''''''''''''    '''''''''' ''''''''''''    
-                      ''''''''            '''''''''     '''''''''' '''''''''''     '''''''''' '''''''''''     
-                     '''''''''             ''''''''     '''''''''' '''''''''''     '''''''''' '''''''''''     
-                     '''''''''             '''''''''    '''''''''' ''''''''''      '''''''''' ''''''''''      
-                     ''''''''              '''''''''    '''''''''' '''''''''       '''''''''' '''''''''       
-                    '''''''''               ''''''''    '''''''''' ''''''''        '''''''''' ''''''''        
-                    '''''''''               '''''''''   '''''''''' ''''''          '''''''''' ''''''`         
-                    ''''''''                '''''''''   '''''''''' '''`            '''''''''' ''''            </p>
-                      </div>
-                      
-                      <div class="column middle">
-                          <div class="column title">
-                            <h2>ABB Arecibo Plant, Arecibo, PR</h2>
-                            <h3>ABB Undergrad Coop Experience</h3>
-                          </div>
-                          <div class="column date">
-                            <h2>Aug - Dec 2018</h2>
-                            <h3>TERMINATED</h3>
-                          </div>
-                        <h2>Description</h2>
-                        <p>Created software solutions that saved the company more than 500,000$</p>
-                        <p>Working with improving existing proceses in the field and adding new features to already implemented systems.</p>
-                      </div>
-                    
-                    </div>
-                    
-                    <div class="row">
-                      <div class="column side">
-                        <p class="ascii-image">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
-                                      .,::''.`                                                                                       
-                                   .,:::::;+';`                                                                                      
-                                .,::::::::''''`                                                                                      
-                             .,:::::::::::''''`                                                                                      
-                         .,:::::::::::::::''''`                                                                                      
-                      .,::::::::::::::::::''''`                                                                                      
-                   .,:::::::::::::::::::::''''`                                                                                      
-                ,:::::::::::::::::::::::::;'+'`                                                                                      
-            .,::::::::::::::::::::::::::::;'''`                                                                                      
-         .,:::::::::::::::::::::::::::::::''''`                                                                                      
-      .,::::::::::::::::::::::::::::::,:'++++'`                                                                                      
-   .:::::::::::::::::::::::::::::::'+++++',,.`                                                                                       
-   :::::::::::::::::::::::::::'+++++':,.```                                                                                          
-   ::::::::::::::::::::::'+++++':,..``                                                                                               
-   :::::::::::::::::;+++++':...``                                                                                                    
-   ::::::::::::;'+++++;,..```                                                                                                        
-   ::::::::;;;;;;;;;;:,...````                               @@                                                                      
-   :::;;;;;;;;;;;;;;;;;;;;;';;:,..                          @@@+                                                                     
-   .,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;':.                       @@@                 .#,                                                 
-     ``..,,;;;;;;;;;;;;;;;;;;;;;::::;'`                      @@@                `#@@@                                                
-         ```..,:;';;;;;;;;;;:::::::+,`                        @@@               .@@@;`                              ....,.           
-              ```..,:;;;:::::::::+;.`                                          `,@@@.                       ..,:;'+++''':::::,.      
-                    .::::::::::'+,:`             ., ;;;.                       `#@@@..;;;;;;;;`'#:      .++++'+'''+++';;:::::::.     
-                   ,:::::::::'#.`.::            .;, ;;;;: @@@@@@               .@@@;.#@@@@@@@@.+@@@,    ,++++#++:,,..```:::::::.     
-                 ,:::::::::;+:.` `::,           ';, ;;;;;.@@@@@@@       ..    `:@@@..@@@@@@@@@.'@@@@.   ,++',,:,,,,::,``:::::::.     
-               .::::::::::+'.`   `:::.         ;;;, ;:;;;.#   @@@@     .@@@`  `@@@@`,@@@@@@@@@`:#@@@@`  ,++:,,,,,,,,,;,.:::::::.     
-             .:::::::::,+#,`     `:::;        ,;;;,  `;;;.     @@@;    .@@@`  .@@@:``........```.;@@@.  ,+;,,,,,,,,,:,;::::::::.     
-           .:::::::::,'+:.`      `:::::      .;;;;,   ;;;;      @@@`  `,@@+` `:@@@..##########` `,@@@.  ,+,,'#,,,,;,,,:;:::::::.     
-         .:::::::::::+'.`        `:::::,    .';;;;,   ;;;'      @@@`  `'@@:``.@@@@.:@@@@@@@@@@.``:@@@.  ,+++++,,,,;',,,;:::::::.     
-        ,::::::::::;;;,.         `:::::;.   ;;;;;;, .,;;;;      @@@````#@@.`::@@@:`@@@@@@@@@@@..#@@@@`  ,++++.,,,,;::,,;:::::::.     
-        :::::::::;;;;;;;;;,.     `:::::;;. ,;;;;;;, ;;;;;,      @@@..;.@@@.`##@@@..@@@@@@@@@@@`,@@@@.`  ,+++:,,,,,;:::,::::::::.     
-        ,:::::,;;;;;;;;;;;;;;;:.`.:::;:;;;,;;;;;;;, ;;;;:.      @@#`,@:@@@`.@@@@#``,,,,,,,,,,.`,@@@:`   ,++++,,:,,;::,:;:::::::.     
-        ```.,,:;';;;;;;;;;;;;;;,'+:::;::;;;;;;:;;;, ;;',`,@    @@@,`'@'@@#`.@@@@,`.,,,,,,,,,,. ,@@@@`   ,++++#,,,,;;,,,;:::::::.     
-             ````...,:;;;;;;::::'+::::.;;;;;;:,;;;, ..``#@@@@@@@@+`.@@@@@'`.@@@@..@@@@@@@@@@@@``#@@@'   ,+;.+#,,,,;;,,,::::::::.     
-                    ```.,;::::::+;::::`,;;;;;`.;;;,    `,@@@@@@@+` .@@@@@, ,@@@#`;@@@@@@@@@@@@` .@@@@,  ,+;:,,,,,,,,,,:::::::::.     
-                      .:::::::+;..:::: `:;;;` .;;;,     `.;@@@+,`  `@@@@@. .@@@.`@@@@@@@@@@@@@` `,@@@@. ,+#,:,,,,,,,,::,:::::::.     
-                    ,:::::::+;.` .::::  `:;.  .;;;,       ``..`     `...`` `...``.............`  `,@@@@ ,++;,,;,,,,,::.`:::::::.     
-                    ::::::+;.`   `::;:   ```  `::::                                               `;@@@ ,++++#+':::,.` `:::::::.     
-                    ::::''.` `   `````        `````                                               ``#@@ ,+++++++,..``` `:::::::.     
-                    ::;;:`                                                                         `.@@ ,++++++++++++':,:::::::.     
-                    ';;;,                                                                            ,@@..,;'#++++++++++:::::::.     
-                    ;;;;.                                                                            `,@.  ```..,:'+++++:::::,.`     
-                    ;;;;.                                                                             `:`        ```..,::,.```       
-                    :;;'`                                                                              ``             ```            
-                    ,;;;`                                                                                                            
-                    .;;;`                                                                                                            
-                     :;.`                                                                                                            
-                     ,;`                                                                                                             
-                     .;`                                                                                                             
-                     .;`                                                                                                             
-                     `:                                                                                                              
-                     `.                                                                                                              </p>
-                      </div>
-                      
-                      <div class="column middle">
-                          <div class="column title">
-                            <h2>University of Puerto Rico in Mayaguez</h2>
-                            <h3>Empower3D Member / Project Manager</h3>
-                          </div>
-                          <div class="column date">
-                            <h2>2018 - 2019</h2>
-                            <h3>TERMINATED</h3>
-                          </div>
-                        <h2>Description</h2>
-                        <p>Paragraph</p>
-                        <p>Paragraph</p>
-                      </div>
-                    
-                    </div>
 
-                    <div class="row">
-                      <div class="column side">
-                        <p class="ascii-image">
-                                                ,,,,,,,,,                                           
-                                           ,,,,,,,,,,,,,,,,,,,                                      
-                                        ,,,,,,,,,,,,,,,,,,,,,,,,,                                   
-                                       ',,,,,,,,,,,,,,,,,,,,,,,,,,,,                                
-                                       ',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,                              
-                                       ',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,                            
-                                       ',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,                           
-                              ,;       ',,,,,,,,;'     ';,,,,,,,,,,,,,,,,,,                         
-                             ,,,       ',,,,                 ,,,,,,,,,,,,,,,                        
-                            ,,,,                                ,,,,,,,,,,,,,                       
-                           ,,,,,                                  ,,,,,,,,,,,,,                     
-                          ,,,,,,                                    ,,,,,,,,,,,,                    
-                         ,,,,,,,                                      ,,,,,,,,,,,                   
-                        ,,,,,,,,                                       ,,,,,,,,,,                   
-                       ,,,,,,,,,                                        ,,,,,,,,,,                  
-                      ,,,,,,,,,,                                         ,,,,,,,,,,                 
-                                                                          ,,,,,,,,,,                
-                                                                           ,,,,,,,,,                
-                                                                            ,,,,,,,,,               
-                                                                             ,,,,,,,,,              
-                                                                              ,,,,,,,,              
-                                                                              ,,,,,,,,,             
-                                                                               ,,,,,,,,             
-                  ,,,,,,,,                                                      ,,,,,,,,            
-                 ,,,,,,,,                                                       ,,,,,,,,            
-                 ,,,,,,,,                                                        ,,,,,,,            
-                 ,,,,,,,                                                         ,,,,,,,,           
-                ,,,,,,,,                                                         ,,,,,,,,           
-                ,,,,,,,,                                                          ,,,,,,,           
-                ,,,,,,,                                                           ,,,,,,,           
-                ,,,,,,,                                                           ,,,,,,,,          
-                ,,,,,,,                                                           ,,,,,,,,          
-               ,,,,,,,,                                                            ,,,,,,,          
-               ,,,,,,,,                                                            ,,,,,,,          
-               ,,,,,,,                                                             ,,,,,,,          
-               ,,,,,,,                                                             ,,,,,,,          
-               ,,,,,,,                                                             ,,,,,,,          
-               ,,,,,,,                                                             ,,,,,,,          
-               ,,,,,,,                                                             ,,,,,,,          
-               ,,,,,,,                                                             ,,,,,,,          
-               ,,,,,,,                                                             ,,,,,,,          
-               ,,,,,,,,                                                            ,,,,,,,          
-               ,,,,,,,,                                                            ,,,,,,,          
-                ,,,,,,,                                                           ,,,,,,,,          
-                ,,,,,,,                                                           ,,,,,,,,          
-                ,,,,,,,               ''''''''''''''''''''''''''''''''            ,,,,,,,           
-                ,,,,,,,,              ''''''''''''''''''''''''''''''''            ,,,,,,,           
-                ,,,,,,,,              ''''''''''''''''''''''''''''''''           ,,,,,,,.           
-                 ,,,,,,,              ''''''''''''''''''''''''''''''''           ,,,,,,,,           
-                 ,,,,,,,,             ''''''''''''''''''''''''''''''''          ,,,,,,,,            
-                 ,,,,,,,,             ''''''''''''''''''''''''''''''''          ,,,,,,,,            
-                  ,,,,,,,,            ''''''''''''''''''''''''''''''''          ,,,,,,,             
-                  ,,,,,,,,            ''''''''''''''''''''''''''''''''         ,,,,,,,,             
-                   ,,,,,,,,                       ''''''''                    ,,,,,,,,,             
-                   ,,,,,,,,,                      ''''''''                    ,,,,,,,,              
-                    ,,,,,,,,                      ''''''''                   ,,,,,,,,               
-                    ,,,,,,,,,                     ''''''''                  ,,,,,,,,,               
-                     ,,,,,,,,,                    ''''''''    ,,,,,,,,     ,,,,,,,,,                
-                     ,,,,,,,,,,                   ''''''''    ,,,,,,,,    ,,,,,,,,,,                
-                      ,,,,,,,,,,                  ''''''''    ,,,,,,,,   ,,,,,,,,,.                 
-                       ,,,,,,,,,,                 ''''''''    ,,,,,,,,  ,,,,,,,,,,                  
-                        ,,,,,,,,,,,               ''''''''    ,,,,,,,, ,,,,,,,,,,                   
-                         ,,,,,,,,,,,              ''''''''    ,,,,,,,,,,,,,,,,,,                    
-                          ,,,,,,,,,,              ''''''''    ,,,,,,,,,,,,,,,,,                     
-                           ,,,,,,,,,              ''''''''    ,,,,,,,,,,,,,,,,                      
-                            ,,,,,,,,              ''''''''    ,,,,,,,,,,,,,,,                       
-                             ,,,,,,,              ''''''''    ,,,,,,,,,,,,,.                        
-                               ,,,,,              ''''''''    ,,,,,,,,,,,,,                         
-                                ,,,,              ''''''''    ,,,,,,,,,,,                           
-                                  ,,              ''''''''    ,,,,,,,,,,                            
-                                   '              ''''''''    ,,,,,,,,                              
-                                                  ''''''''    ,,,,,,,,                              
-                                                  ''''''''    ,,,,,,,,                              
-                                                  ''''''''    ,,,,,,,,                              
-                                                  ''''''''    ,,,,,,,,                              
-                                                  ''''''''    ,,,,,,,,                              
-                                                  ''''''''    ,,,,,,,,                              
-                                                  ''''''''    ,,,,,,,,                              
-                                                  ''''''''    ,,,,,,,,                              
-                                                  ''''''''    ,,,,,,,,                              
-                                                  ''''''''    ,,,,,,,,                              
-                                                  ''''''''    ,,,,,,,,                              
-                                                  ''''''''    ,,,,,,,,                              
-                                                  ''''''''                                          
-                                                  ''''''''                                          
-                                                  ''''''''                                          
-                                      ''''''''''''''''''''''''''''''''                              
-                                      ''''''''''''''''''''''''''''''''                              
-                                      ''''''''''''''''''''''''''''''''                              
-                                      ''''''''''''''''''''''''''''''''                              
-                                      ''''''''''''''''''''''''''''''''                              
-                                      ''''''''''''''''''''''''''''''''                              
-                                      ''''''''''''''''''''''''''''''''                              
-                                      ''''''''''''''''''''''''''''''''                              
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                      ''''''''''''''''''''''''''''''''                              
-                                      ''''''''''''''''''''''''''''''''                              
-                                      ''''''''''''''''''''''''''''''''                              
-                                      ''''''''''''''''''''''''''''''''                              
-                                      ''''''''''''''''''''''''''''''''                              
-                                      ''''''''''''''''''''''''''''''''                              
-                                      ''''''''''''''''''''''''''''''''                              
-                                      ''''''''''''''''''''''''''''''''                              
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                      ''''''''''''''''''''''''''''''''                              
-                                      ''''''''''''''''''''''''''''''''                              
-                                      ''''''''''''''''''''''''''''''''                              
-                                      ''''''''''''''''''''''''''''''''                              
-                                      ''''''''''''''''''''''''''''''''                              
-                                      ''''''''''''''''''''''''''''''''                              
-                                      ''''''''''''''''''''''''''''''''                              
-                                      ''''''''''''''''''''''''''''''''                              </p>
-                      </div>
-                      
-                      <div class="column middle">
-                          <div class="column title">
-                            <h2>University of Puerto Rico in Mayaguez</h2>
-                            <h3>Idea Platform Member</h3>
-                          </div>
-                          <div class="column date">
-                            <h2>2018 - 2019</h2>
-                            <h3>TERMINATED</h3>
-                          </div>
-                        <h2>Description</h2>
-                        <p>Paragraph</p>
-                        <p>Paragraph</p>
-                      </div>
-                    
-                    </div>
-                  </div>
-                  
-                  <div id="pinky -l guysgarcia" class="tabcontent">
-                    <span class="cmd">recruiter@guysgarcia.xyz<w>:</w><b>~</b><w>$ </w></span><span class="cmd1" id="command3"></span>
-                    <p>Contact me with email and linked in and resume download</p>
-                  </div>
-            <script>
+<body>
+    <main>
+        <h1>Guy S. Garcia</h1>
+        <p class="lead">Computer Engineering student with more ideas than time to work on.</p>
+        <p class="blue">Has worked with <b>Machine Learning</b> and <b>AI</b>. Mostly based on backend development.</p>
+        <h2>About Me 🦕</h2>
+        <pre><p class="blue"><b>Primary Languages:</b>  -English  -Spanish</p></pre>
+        <p class="blue"><b>Programming Languages:</b></p>
+        <pre><p class="blue">    01. <b>Python</b>   🐍  -Skilled</p></pre>
+        <pre><p class="blue">    02. <b>HTML/CSS/JS</b>  -Work Experienced</p></pre>
+        <pre><p class="blue">    03. <b>C#/ASP.net</b>   -Work Experienced</p></pre>
+        <pre><p class="blue">    04. <b>Java</b>         -Experienced</p></pre>
+        <pre><p class="blue">    05. <b>C</b>            -Light Usage</p></pre>
+        <pre><p class="blue">    06. <b>C++</b>          -Light Usage</p></pre>
+        <p class="blue"><b>Other Skills:</b></p>
+        <pre><p>    -Raspberry Pi  -Group Leadership   -3D Printing</p></pre>
+        <pre><p>    -Arduino       -Server Management  -CAD Desing</p></pre>
+        <pre><p class="blue"><b>Education:</b>   UPRM (Universidad de Puerto Rico en Mayaguez)</p></pre>
+        <pre><p class="blue"><b>Graduation:</b>  May 2022</p></pre>
 
-                    function openTab(evt, tabName) {
-                      var i, tabcontent, tablinks;
-                      typeCommand(tabName);
-                      tabcontent = document.getElementsByClassName("tabcontent");
-                      setTimeout(function(){},800);
-                      for (i = 0; i < tabcontent.length; i++) {
-                        tabcontent[i].style.display = "none";
-                      }
-                      tablinks = document.getElementsByClassName("tablinks");
-                      for (i = 0; i < tablinks.length; i++) {
-                        tablinks[i].className = tablinks[i].className.replace(" active", "");
-                      }
-                      
-                      document.getElementById(tabName).style.display = "block";
-                      evt.currentTarget.className += " active";
-                    }
-                    function typeCommand(command) {
-                      var speedInt;
-                      speedInt = 20;
-                      if (command == "about") {
-                        command = "echo \"password\" | sudo lshw";
-                        speedInt = 15;
-                      }
-                      $('#command1').typeIt({
-                        strings: command,
-                        speed: speedInt,
-                        waitUntilVisible: true,
-                      });
-                      $('#command2').typeIt({
-                        strings: command,
-                        speed: speedInt,
-                        waitUntilVisible: true
-                      });
-                      $('#command3').typeIt({
-                        strings: command,
-                        speed: speedInt,
-                        waitUntilVisible: true
-                      });
-                    }
-                    // Get the element with id="defaultOpen" and click on it
-                    document.getElementById("defaultOpen").click();
-              </script>
-    </body>
-</html>
+        <h2>Mayor Projects</h2>
+        <h3>Atlas Virtual Assistant</h3>
+        <pre><p class="blue"><b>    <a href="https://github.com/FloppyDisck/Atlas-Ai">Github Repository</a></b></p></pre>
+        <pre><p class="blue"><b>    When:</b>  Feb 2019 - Present</p></pre>
+        <pre><p class="blue"><b>    What:</b>  Home Automation AI</p></pre>
+        <pre><p class="blue"><b>Description:</b></p></pre>
+        <p>The Atlas AI is a virtual assistant that unlike Google Home and Alexa its processing is completely offline.</p>
+        <p>The new version's core is built using the Rasa NLU framework. Currently it can recognize intent and entities 
+            that guide the conversation, it utilizes Spacy for its NLP functions while applying tensorflow features for learning.</p>
+        <p>The project was started as a way to learn more about machine vision and natural language processing as well as teaching
+            students to be more comfortable with programming by broadening their skills.</p>
+        
+        <h3>Quadruped</h3>
+        <pre><p class="blue"><b>    <a href="google.com">Google drive with images</a></b></p></pre>
+        <pre><p class="blue"><b>    When:</b>  2015 - 2018</p></pre>
+        <pre><p class="blue"><b>    What:</b>  12 Degrees of Freedom Quadrupedal Robot</p></pre>
+        <pre><p class="blue"><b>Description:</b></p></pre>
+        <p>The most recent (but not final) version of the quadruped is finished up untill the purchase of the servos. (They got expensive)</p>
+        <p>Its body was designed in CAD software and then 3D printed to fit some old servos found lying around.</p>
+        <p>An arduino was integrated as a servo controller in which a Raspberry Pi would send commands via serial to move each servo.
+            The movement was calculated using inverse kinematics and some ultrasonic sensors that would work as a rudimentary obstacle avoidance.</p>
+        <p>The project was started as a way to begin learning about programming and robotics.</p>
+
+        <h2>Work Experience 🦎</h2>
+        <h3>ABB Arecibo Plant</h3>
+        <pre><p class="blue"><b>    Where:</b> Arecibo, Puerto Rico</p></pre>
+        <pre><p class="blue"><b>    When:</b>  Aug - Dec 2018</p></pre>
+        <pre><p class="blue"><b>    What:</b>  Undergrad Coop Experience</p></pre>
+        <pre><p class="blue"><b>Description:</b></p></pre>
+        <p>Created software solutions that saved the company more than 500,000$</p>
+        <p>Created various web applications with the intention to replace existing applications and reinvent existing processes.</p>
+        <p>Managed a database server that would interface with the web apps.</p>
+        <p>Worked with improving existing proceses in the field using lean tools and adding new features to already implemented systems.</p>
+
+        <h3>Biomechatronics Research</h3>
+        <pre><p class="blue"><b>    Where:</b> UPRM</p></pre>
+        <pre><p class="blue"><b>    When:</b>  Fall - March 2018</p></pre>
+        <pre><p class="blue"><b>    What:</b>  Undergrad Research Assistant</p></pre>
+        <p>Used an EEG system to read and process electrical brain signals.</p>
+        <p>Learned C programming for its low level implementations.</p>
+        <p>Was tasked with 3D printing the Electroencephalogram (EEG) and mantaining the system for continued use.</p>
+
+        <h3>Empower3D</h3>
+        <pre><p class="blue"><b>    Where:</b> UPRM</p></pre>
+        <pre><p class="blue"><b>    When:</b>  2018 - 2019</p></pre>
+        <pre><p class="blue"><b>    What:</b>  Project Manager / Member</p></pre>
+        <p>Created a file managmeent system with the intent of tracking project progress and member reports.</p>
+        <p>Lead a quadrupedal robot project that mirrored my existing personal project but with the goal to teach
+            members about programming, CAD design, prototyping boards, additive manufacturing (3D Printing) and project development.</p>
+
+        <h3>Idea Platform</h3>
+        <pre><p class="blue"><b>    Where:</b> UPRM</p></pre>
+        <pre><p class="blue"><b>    When:</b>  2018 - 2019</p></pre>
+        <pre><p class="blue"><b>    What:</b>  Mentor / Member</p></pre>
+        <p>Worked on shifts to keep the UPRM Maker Space open.</p>
+        <p>Taught students about programming, soldering, CAD design, prototyping, entrepeneurship, additive manufacturing (3D Printing) and arduino/RaspberryPi boards.</p>
+        <section>
+            <h2>Contact Me 🐢</h2>
+            <ul>
+                <li>
+                    <a href="mailto:guy.garcia@upr.edu?subject=Hey Guy! I would love to interview you!">Email - guy.garcia@upr.edu</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/guy-garcia-3053369b">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://github.com/FloppyDisck">GitHub</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+
+
+</body></html>
