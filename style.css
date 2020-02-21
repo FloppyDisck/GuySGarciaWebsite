@@ -12,6 +12,28 @@ body {
   color: #EEE;
 }
 
+#wrapper {
+  position: relative;
+}
+
+.header {
+  position: relative;
+  z-index: 100;
+}
+
+.vectors {
+  position: absolute;
+  left: 10px; right: 10px;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
+canvas {
+  position: relative;
+  z-index: -3 !important;
+}
+
 /* Copy & Lists */
 p {
   line-height: 1.5rem;
@@ -107,7 +129,7 @@ code {
   
 }
 .blue {
-
+  color: rgb(241, 241, 241);
 }
 .blue b {
   color: #7CAFC2;

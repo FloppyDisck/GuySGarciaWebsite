@@ -2,6 +2,8 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <title>The only help you'll ever need.</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.dom.min.js"></script>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <!-- YOU ARE AWESOME! <3 -->
@@ -10,9 +12,15 @@
 
 <body>
     <main>
-        <h1>Guy S. Garcia</h1>
-        <p class="lead">Computer Engineering student with more ideas than time to work on.</p>
-        <p class="blue">Has worked with <b>Machine Learning</b> and <b>AI</b>. Mostly based on backend development.</p>
+        <div id="wrapper">
+            <div class="header" id="webFrontend">
+                <h1>Guy S. Garcia</h1>
+                <p class="lead">Computer Engineering student with more ideas than time to work on.</p>
+                <p class="blue">Has worked with <b>Machine Learning</b> and <b>AI</b>. Mostly based on backend development.</p>
+            </div>
+            <div class="vectors" id="webBackground">
+            </div>
+        </div>
         <h2>About Me 🦕</h2>
         <pre><p class="blue"><b>Primary Languages:</b>  -English  -Spanish</p></pre>
         <p class="blue"><b>Programming Languages:</b></p>
@@ -29,16 +37,28 @@
         <pre><p class="blue"><b>Graduation:</b>  May 2022</p></pre>
 
         <h2>Mayor Projects</h2>
+        <h3>Generative Art</h3>
+        <pre><p class="blue"><b>    <a href="https://github.com/FloppyDisck/Atlas-Ai">Github Repository</a></b></p></pre>
+        <pre><p class="blue"><b>    When:</b>  Dec 2019 - Present</p></pre>
+        <pre><p class="blue"><b>    What:</b>  Procedural and AI art exhibition</p></pre>
+        <pre><p class="blue"><b>Description:</b></p></pre>
+        <p>It is a work in progress project that aims to create a complete art exhibition using Artificial Intelligence and Generative Algorithms
+            as a medium to portray abstract expression.</p>
+        <p>Currently I have implemented from scratch verious methods, including fractals, collatz series, cellular automata, perlin noise, neural 
+            nets and biological simulations.</p>
+        <p>The end goal of this project is bring awareness to the artistic and subjective side of mathematics and computation to motivate artitsts 
+            into learning and experimenting with said subjects.</p>
+
         <h3>Atlas Virtual Assistant</h3>
         <pre><p class="blue"><b>    <a href="https://github.com/FloppyDisck/Atlas-Ai">Github Repository</a></b></p></pre>
         <pre><p class="blue"><b>    When:</b>  Feb 2019 - Present</p></pre>
         <pre><p class="blue"><b>    What:</b>  Home Automation AI</p></pre>
         <pre><p class="blue"><b>Description:</b></p></pre>
         <p>The Atlas AI is a virtual assistant that unlike Google Home and Alexa its processing is completely offline.</p>
-        <p>The new version's core is built using the Rasa NLU framework. Currently it can recognize intent and entities 
-            that guide the conversation, it utilizes Spacy for its NLP functions while applying tensorflow features for learning.</p>
-        <p>The project was started as a way to learn more about machine vision and natural language processing as well as teaching
-            students to be more comfortable with programming by broadening their skills.</p>
+        <p>The new version's core is built using a custom made framework. Currently it can recognize intent and entities 
+            that guide the conversation, it utilizes Spacy for its NLP functions while using scikitlearn for machine learning.</p>
+        <p>The project was started as a way to learn more about machine vision and natural language processing as well as practicing 
+            interesting new ways to develop projects.</p>
         
         <h3>Quadruped</h3>
         <pre><p class="blue"><b>    <a href="google.com">Google drive with images</a></b></p></pre>
@@ -51,7 +71,7 @@
             The movement was calculated using inverse kinematics and some ultrasonic sensors that would work as a rudimentary obstacle avoidance.</p>
         <p>The project was started as a way to begin learning about programming and robotics.</p>
 
-        <h2>Work Experience 🦎</h2>
+        <h2>Experience 🦎</h2>
         <h3>ABB Arecibo Plant</h3>
         <pre><p class="blue"><b>    Where:</b> Arecibo, Puerto Rico</p></pre>
         <pre><p class="blue"><b>    When:</b>  Aug - Dec 2018</p></pre>
@@ -82,7 +102,7 @@
         <pre><p class="blue"><b>    Where:</b> UPRM</p></pre>
         <pre><p class="blue"><b>    When:</b>  2018 - 2019</p></pre>
         <pre><p class="blue"><b>    What:</b>  Mentor / Member</p></pre>
-        <p>Worked on shifts to keep the UPRM Maker Space open.</p>
+        <p>Worked on shifts to keep the UPRM's Maker Space open.</p>
         <p>Taught students about programming, soldering, CAD design, prototyping, entrepeneurship, additive manufacturing (3D Printing) and arduino/RaspberryPi boards.</p>
         <section>
             <h2>Contact Me 🐢</h2>
@@ -100,6 +120,6 @@
         </section>
     </main>
 
-
+    <script src="sketch.js"></script>
 
 </body></html>
